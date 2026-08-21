@@ -6,6 +6,7 @@
  *              cell values are stacked with a separator. The original columns
  *              are removed from the visible column list but stay referenced
  *              on the stacked column (_isStackedColumn / _stackedColumns).
+ * @author      Abhishek Sharma <abhisheksharma86490@gmail.com> (https://github.com/AbhishekSharma-86)
  */
 import { useMemo } from 'react'
 

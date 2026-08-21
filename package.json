@@ -35,6 +35,7 @@
     "plugin"
   ],
   "license": "MIT",
+  "author": "Abhishek Sharma <abhisheksharma86490@gmail.com> (https://github.com/AbhishekSharma-86)",
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18",
