@@ -1,0 +1,47 @@
+/*
+ * Datatable Stack Columns — plugin styles.
+ * Override these classes in your own CSS after importing styles.css.
+ */
+.dt-stack-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  width: 100%;
+}
+
+.dt-stack-header-title {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dt-stack-cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+  width: 100%;
+}
+
+.dt-stack-cell-row {
+  width: 100%;
+}
+
+.dt-stack-separator {
+  height: 1px;
+  width: 100%;
+  background-color: #d0d7de;
+  margin: 2px 0;
+}
+
+.dt-stack-data {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.one-row-dot-overflow {
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,46 @@
+{
+  "name": "datatable-stack-columns",
+  "version": "0.1.0",
+  "description": "Stack any 2+ columns into a single stacked column for react-data-table-component. React port of the DataTables stackColumn plugin.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./styles.css": "./styles.css"
+  },
+  "files": [
+    "dist",
+    "styles.css",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "react-data-table-component",
+    "datatable",
+    "stacked-columns",
+    "column-stack",
+    "stack",
+    "plugin"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18",
+    "react-data-table-component": ">=7"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
