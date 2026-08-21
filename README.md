@@ -64,3 +64,7 @@ All classes are prefixed `dt-stack-` (`.dt-stack-header`, `.dt-stack-cell`, `.dt
 ## License
 
 MIT
+
+## Author
+
+Created by [Abhishek Sharma](https://github.com/AbhishekSharma-86)
